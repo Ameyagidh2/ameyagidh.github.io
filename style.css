@@ -1,0 +1,154 @@
+
+		h2{
+			background-color:white;
+			color:#8d3843;
+			font-variant:large;
+			font-family: serif;
+			text-align:center;
+
+		}
+		
+		p{
+			color:#033742;
+			background-color:white;
+			font-family:Cursive;
+			line-height:100%;
+			overflow:auto;
+			border:solid #8d3843;
+			border-width: 12px,30px;
+
+
+		}
+		header
+		{
+			color:#1E0702;
+			font-style:italic;
+			position:fixed;
+			float:left;	
+			line-height:100px;}
+		footer
+		{
+			font-family:sans-serif;
+			font-variant: small-caps;
+			background:grey;
+			color:green;
+
+
+
+		}
+		ol
+		{
+			color:green;
+			font-family:Impact;
+			list-style:upper-roman;
+			position: relative;
+
+		}
+		details{
+			color:#2F3F8A;
+			font-weight: bold;
+		}
+		a
+		{
+
+		color:black;
+		font-size:large;	
+		}
+		div{
+			background-color:white;
+			font-variant: small-caps;
+			border:dotted;
+			margin:10px;
+			padding:20px;
+
+       }
+        span
+        {
+        	
+        	border:ridge;
+        	
+        }
+        body{
+background:-webkit-linear-gradient(top,#358DFF,#E0E7F2);
+        	margin:10%;
+        }
+       button
+       {
+
+       	color: red;
+       }
+iframe{
+
+	background:grey ;
+}
+a{
+	color:yellow;
+
+	text-decoration: none;
+}
+a:focus
+{
+	color:Red;
+}
+a:visited
+{
+	color:indigo;
+}/
+ahover
+{color:purple;
+
+}
+a:active
+{
+	color:green;
+}
+
+		nav a{
+			color:grey;
+		}
+		{
+			color:blue;
+			text-decoration: none;
+		}
+		.no
+		{
+			color:pink;
+			
+			}
+		*{color:blue;}	
+		#ide
+		{
+background: yellow
+
+-webkit-border-radius: 30px;
+		}	
+		p::first-line
+		{display:inline-block;
+			background: yellow;
+			color:red;
+			position:relative;
+			left:500px;
+		}	
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+div:hover {
+  width: 300px;
+  height: 300px;
+  
+  transform:translate3d(5px,6px,7px);
+  transform: rotate(180deg);
+  
+}
+div : active
+{
+background: #0F601F;
+transform:rotate(360 deg);
+display:inline block;
+	transition: width:10px;
+	background-color: #48D563;
+}			

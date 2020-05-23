@@ -1,0 +1,92 @@
+table.cal{
+		color:#06425C;
+		border-spacing:1px;
+		-webkit-border-radius: 17px;
+		border:solid 3px;
+		text-align: center;
+		padding:10px;
+	    table-layout: fixed;
+        margin-left: 100px;
+        display:inline-block;
+        position:relative;
+        bottom: 550px;
+
+}
+.cal td{
+	width:45px; 
+	height:15px;
+	vertical-align:top;
+
+
+}
+span{
+
+	visibility:hidden;
+	display: block;
+	text-align: center;
+	color: #800000;
+}
+td:active>span{
+	visibility:visible;
+	display: block;
+	text-align: center;
+	color: #800000;
+}
+.h{
+	background:#51A39D;
+}
+.old{
+	padding:0;
+	margin: 0;
+	background-color: #51A39D;
+	color:rgba(0,0,0,.25);
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/holiday.png") 
+  }
+tr:nth-child(odd){
+background: #F2F2F2;
+}
+tr:nth-child(even)
+{
+	background: #CDBB79;
+}
+caption{
+	background:#666666;
+	text-transform: uppercase;
+	color:#ffffff;
+	border-radius:25px 25px 0 0 ;
+	padding:5px;
+}
+tr:last-child>td:last-child{
+	-webkit-border-radius: 0 0 25px 0;
+	border-radius: 0 0 25px 0;	
+}
+.b{
+	color: red;
+	background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/holiday.png") ;
+
+}
+nav{
+	box-sizing:border-box; 
+	height:100vh;
+	overflow:auto;
+	display:inline-block;
+	background: #48D563;
+}
+nav a{
+	height:45px;
+	display:block;
+	margin:1px;
+	padding-left: 5px;
+	line-height: 45px;
+}
+section{
+	display: inline-block;
+	width:70%;
+	height:100vh;
+	overflow: auto;
+
+}
+.of{
+left:-100px;
+position:absolute;
+}
